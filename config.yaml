@@ -167,108 +167,123 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Graduate Research Assistant"
+        company: "Ashes Lab NCSU"
+        companyUrl: "https://www.carterclinton.com/"
+        date: "Sep 2023 - present"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        content: |
+          - Analyzing metagenomic data from the historic New York African Burial Ground using Next Generation Sequencing
+            and tools like Qiime2 and Kraken to reconstruct the history of the enslaved African population.
+          - Categorizing DNA sequences (human, bacterial, animal, etc.) using Bowtie2 and SAMTools; compare human DNA
+            with public databases for genealogical links and disease markers, utilizing bash, CUDA, and HPC.
+        info:
+          enable: false
+      - job: "Graduate Research Assistant"
+        company: "North Carolina State University"
+        companyUrl: "https://bio.sciences.ncsu.edu/people/rfguerre/"
+        date: "Sep 2023 - present"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         info:
-          enable: true
+          enable: false
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
+          I am currently working as a graduate research assistant under the supervision of Dr. Rafael Guerrero. 
+          - Analyzing protien sequences to modify their thermostability through amino acid changes, opening up the path for advanced applications.
+          - Extracted protein sequence and taxonomic data from NCBI and PDB databases, cleaned the data to rectify inconsistencies and improve data integrity, transformed the raw data using techniques like merging and joining to facilitate further analysis, loaded the optimized datasets for subsequent computational processes.
           - Created a frontend design for a product.
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+      - job: "Graduate Student Assistant"
+        company: "NC State Data Science Academy"
+        companyUrl: "https://datascienceacademy.ncsu.edu"
+        date: "May 2023 - Aug 2023"
         info:
           enable: false
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - Mentored 25+ students in Data Science projects for rural works organizations. Enabled hands-on experience for students using real data from these organizations, leading to valuable insights that helped the nonprofits improve their operations.
+          - Guided students in delivering impactful presentations, showcasing their findings and providing actionable recommendations to stakeholders.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
+      - job: "Course Collobarative Leader"
+        company: "NC State Data Science Academy"
+        companyUrl: "https://datascienceacademy.ncsu.edu"
+        date: "Aug 2023 - present"
         featuredLink:
           enable: true
-          url: "https://example.com"
+          url: "https://github.com/varundeepakgudhe/Data_Science_Academy"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
+          - Developing and maintaining self-updating datasets sourced from real-time public data sources. Using APIs to connect with public data and create dynamic datasets.
+          - Documenting codebooks for each dataset and maintaining workflow notes to help future progress by others.
+          - Proposing ideas for extracting insights and projects from the datasets to guide research and match course goals.
+          - Leading regular meetings to update on project status, milestones, and future plans of action.
+          - Publishing these datasets and their insights for the wider academic community.
+        info:
+          enable: false
+      - job: "Teaching Assistant"
+        company: "NC State Data Science Academy"
+        companyUrl: "https://datascienceacademy.ncsu.edu"
+        date: "Oct 2023 - present"
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+        info:
+          enable: false
+      - job: "Graduate Research Assistant"
+        company: "IEC Lab NCSU"
+        companyUrl: "https://www.ieclab.org/home"
+        date: "Dec 2022 - May 2023"
+        content: |
+          - Collaborated with Tasmia Shahriar on the AI-based application Simstudent, using data analysis skills.
+          - Enhanced model accuracy through data coding, mirroring middle school perspectives.
+          - Improved Simstudent’s performance, benefiting many middle school students.
+        info:
+          enable: false
   # Education
   education:
     enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Computer Science"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "North Carolina State University"
+          url: "https://www.ncsu.edu/"
+        date: "2022 - 2024"
+        GPA: "3.78 out of 4.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Course Work:
+          - Design and Analysis of Algorithms, Neural Networks Deep Learning, Automated Learning and Data Analysis, Experimental Stats for
+            Engineers, Cloud Computing, DBMS, Software Engineering, Object Oriented Programming.
       - title: "Bachelor of Science in Computer Science"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "SRM University AP"
+          url: "https://srmap.edu.in/"
+        date: "2018 - 2022"
+        GPA: "9.54 out of 10"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Course Work:
+          - Artificial Intelligence, Machine Learning, Big Data, Data Mining, DBMS, Data Structures, Software Engineering, Computer Networks, Operating Systems, Object Oriented Programming.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Extracurricular Activities:
+            - Volunteered as a infra-tech team head for tech fest and organised events for cultural fest.
+            - Worked as a Campus Ambassador for SRM-AP to represent SmartKnower.
         featuredLink:
           enable: true
           name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          url: "https://drive.google.com/file/d/1en_gGLXaw5AWZKziiB9G9q5whevx24Hm/view?usp=sharing"
+      # - title: "High School"
+      #   school:
+      #     name: "Thomas Jefferson High School for Science and Technology."
+      #     url: "https://example.org"
+      #   GPA: "4.2 out of 5.0"
+      #   featuredLink:
+      #     enable: true
+      #     url: "https://example.com"
 
   # Achievements
   achievements:
