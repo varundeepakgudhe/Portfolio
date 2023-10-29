@@ -176,6 +176,7 @@ params:
           name: "View the project"
           url: "https://example.com"
         content: |
+          I am currently working as a graduate research assistant under the supervision of Dr. Carter Clinton. 
           - Analyzing metagenomic data from the historic New York African Burial Ground using Next Generation Sequencing
             and tools like Qiime2 and Kraken to reconstruct the history of the enslaved African population.
           - Categorizing DNA sequences (human, bacterial, animal, etc.) using Bowtie2 and SAMTools; compare human DNA
@@ -196,7 +197,7 @@ params:
           I am currently working as a graduate research assistant under the supervision of Dr. Rafael Guerrero. 
           - Analyzing protien sequences to modify their thermostability through amino acid changes, opening up the path for advanced applications.
           - Extracted protein sequence and taxonomic data from NCBI and PDB databases, cleaned the data to rectify inconsistencies and improve data integrity, transformed the raw data using techniques like merging and joining to facilitate further analysis, loaded the optimized datasets for subsequent computational processes.
-          - Created a frontend design for a product.
+          - Utilized the ete3 toolkit for phylogenetic tree processing, aligning leaf labels with protein sequence data, tree pruning, and understanding unique sister clades' evolutionary significance. Concurrently, conducted statistical analyses to find correlations between amino acid changes and T growth, visualized with box plots, and designed a linear regression classifier for predicting thermostability based on protien sequences.
 
       - job: "Graduate Student Assistant"
         company: "NC State Data Science Academy"
@@ -230,7 +231,10 @@ params:
         company: "NC State Data Science Academy"
         companyUrl: "https://datascienceacademy.ncsu.edu"
         date: "Oct 2023 - present"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |
+          - Assisting NC DHHS employees in the course "Data at Work: Data Analytics in Excel and Beyond" with key topics including ETL Tools, Data Warehousing, Microsoft Excel, SQL, PowerBI, Statistics, and Data Visualization.
+          - Conducting regular office hours providing guidance on course concepts, lab techniques, and assisting on their capstone projects.
+          - Grading lab assignments and student capstone projects.
         info:
           enable: false
       - job: "Graduate Research Assistant"
