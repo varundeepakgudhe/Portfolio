@@ -1,3 +1,25 @@
+{{/* Place the style block at the top */}}
+<style>
+.skill-icon {
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    margin-right: 10px; /* space between icons */
+    /* Comment out the animation if you only want the float effect on hover */
+    /* animation: floatEffect 1.5s infinite ease-in-out; */
+}
+
+.skill-icon:hover {
+    transform: translateY(-5px); /* Moves the icon up on hover */
+}
+
+@keyframes floatEffect {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+</style>
+
+{{/* Your main content follows */}}
 {{ if .Site.Params.about.enable | default false }}
 <section id="about" class="py-0 py-sm-5">
     <div class="container bg-transparent">
@@ -14,12 +36,16 @@
                 {{ .Site.Params.about.content | markdownify }}
 
                 {{ if .Site.Params.about.skills.enable }}
-                {{ .Site.Params.about.skills.title }}
-                <ul>
+                {{ with .Site.Params.about.skills }}
+                <br/>
+                <br/>
+                <p>{{ .title }}</p>
+                {{ end }}
+                <div class="skills-icons">
                     {{ range .Site.Params.about.skills.items }}
-                    <li>{{ . | markdownify }}</li>
+                    <img src="https://skillicons.dev/icons?i={{ . | urlize }}" alt="{{ . }}" class="skill-icon">
                     {{ end }}
-                </ul>
+                </div>
                 {{ end }}
             </div>
         </div>

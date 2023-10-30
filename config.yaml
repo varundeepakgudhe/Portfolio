@@ -154,11 +154,10 @@ params:
       enable: true
       title: "Here's a peek at the programming languages and tools I've been working with:"
       items:
-        - "HTML"
-        - "CSS"
+        - HTML
+        - CSS
         - "JavaScript"
         - "React"
-        - "Node"
         - "Express"
 
   # Experience
