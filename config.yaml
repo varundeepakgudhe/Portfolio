@@ -73,7 +73,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "dark" # light
 
   font:
     fontSize: 1rem # default: 1rem
@@ -101,9 +101,9 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "V" # Brand name for the brand | default is the title variable
+    brandLogo: "/logo2.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: true # Show brand logo in nav bar | default is true
+    brandName: " " # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
     menus:
@@ -154,11 +154,30 @@ params:
       enable: true
       title: "Here's a peek at the programming languages and tools I've been working with:"
       items:
+        - Python
+        - R
+        - Java
+        - cpp
         - HTML
         - CSS
-        - "JavaScript"
-        - "React"
-        - "Express"
+        - Javascript
+        - bootstrap
+        - rails
+        - Ruby
+        - React
+        - Tensorflow
+        - Git
+        - bash
+        - linux
+        - PyTorch
+        - regex
+        - Postman
+        - AWS
+        - Kubernetes
+        - MySQL
+        - vscode
+        - docker
+        - netlify
 
   # Experience
   experience:
@@ -292,22 +311,27 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Open Source Contribution to Expertiza
+        content: Expertiza is a web application where students can submit and peer-review learning objects (articles, code, web sites, etc). It is used in select courses at NC State and by professors at several other colleges and universities.
+        url: https://github.com/expertiza/expertiza
+        # image: /images/achievment.jpg
+      - title: Salutatorian Award
+        content: I was awarded the title of Salutatorian for the batch (2018-2022) in Computer Science and Engineering at SRM University.
+        url: https://www.linkedin.com/posts/varun-deepak-gudhe_srmuniversity-computerscience-graduation-activity-7014404122711924736-hEIe?utm_source=share&utm_medium=member_desktop
+      - title: IEEEXtreme Hackathon 2023 Achievement
+        content: Secured 2nd place at NC State University and ranked in the top 10% globally in the IEEEXtreme Hackathon 2023.
+      - title: Certifications
+        content: Completed certifications in Machine Learning, Deep Learning, Python and Web Development courses.
+      #   image: /images/achievment.jpg
+      # - title: Hugo Profile
+      #   content: Developed a theme and getting 1K+ downloads per month.
+      #   url: "https://github.com/gurusabarish/hugo-profile"
+      #   image: /images/achievment.jpg
+      # - title: Microsoft Imagine Runner
+      #   content: We are developed a product which can help others.
+      # - title: Google Summer of Code
+      #   content: Contributed to a open source project.
+      #   url: https://example.com
 
   # projects
   projects:
