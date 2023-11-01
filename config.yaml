@@ -323,65 +323,88 @@ params:
       - title: Certifications
         content: Completed certifications in Machine Learning, Deep Learning, Python and Web Development courses.
       #   image: /images/achievment.jpg
-      # - title: Hugo Profile
-      #   content: Developed a theme and getting 1K+ downloads per month.
-      #   url: "https://github.com/gurusabarish/hugo-profile"
-      #   image: /images/achievment.jpg
-      # - title: Microsoft Imagine Runner
-      #   content: We are developed a product which can help others.
-      # - title: Google Summer of Code
-      #   content: Contributed to a open source project.
-      #   url: https://example.com
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: Sync-Ends Library
+        content: A Python Library that can detect any change across Postman Collection APIs and instantly send notifications on Slack, Teams & Email.
+        image: /Github.png
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Python"
+          - "API"
+          - "Github"
+          - "Github actions"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/smarabattula/Sync-Ends
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+      - title: Prot_pgls
+        content: Bioinformatics-driven optimization of protein thermostability through sequence analysis, phylogenetic tree processing, and predictive modeling using data from NCBI and PDB databases.
+        image: /protein.png
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
         badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+          - "Python"
+          - "R"
+          - "Bioinformatics"
+          - "Phylogenetics"
+          - "ete3"
+          - "Data Wrangling"
+          - "Statistical Analysis"
+          - "Parallel Processing"
+          - "Large-scale Data processing"
+          - "Database Querying"
+          - "GLM(Generalized Linear Models)"
+          - "Data Visualization"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: NYABG Metagenomic Analysis
+        content: Metagenomic analysis of the historic New York African Burial Ground using Next Generation Sequencing, with tools like Qiime2, Kraken, Bowtie2, and HPC assisting in DNA categorization and genealogical exploration.
+        image:
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Metagenomic Analysis"
+          - "Next Generation Sequencing"
+          - "Qiime2"
+          - "GWAS"
+          - "Kraken"
+          - "Bowtie2"
+          - "SAMTools"
+          - "Bash"
+          - "Python"
+          - "HPC"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/HugoProfileV2
+
+      - title: Histopathologic Cancer Detection
+        content: ""
+        image: /Github.png
+
+        badges:
+          - "Python"
+          - "Transfer Learning"
+          - "TensorFlow"
+          - "VGG19"
+
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/varundeepakgudhe/histopathologic_cancer_detection
 
   #Contact
   contact:
