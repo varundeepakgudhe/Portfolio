@@ -373,7 +373,7 @@ params:
 
       - title: NYABG Metagenomic Analysis
         content: Metagenomic analysis of the historic New York African Burial Ground using Next Generation Sequencing, with tools like Qiime2, Kraken, Bowtie2, and HPC assisting in DNA categorization and genealogical exploration.
-        image:
+        image: /ASHES_logo_circle.png
         # featured:
         #   name: Demo V2
         #   link: https://hugo-profile-2.netlify.app
@@ -391,20 +391,48 @@ params:
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/HugoProfileV2
+      - title: IMU Terrain Classification
+        content: A deep learning model to identify & classify different terrains from IMU time series dataset.
+        image: /Github.png
+
+        badges:
+          - "Python"
+          - "TensorFlow"
+          - "Keras"
+          - "CNN"
+          - "Time Series Analysis"
+
+        links:
+          - icon: fab fa-github
+            url: https://github.com/varundeepakgudhe/IMU_terrain_classification
 
       - title: Histopathologic Cancer Detection
-        content: ""
+        content: A deep learning model (CNN's,VGG19) to identify metastatic cancer in colored image patches, using Transfer Learning, Neural Networks and Image Segmentation.
         image: /Github.png
 
         badges:
           - "Python"
           - "Transfer Learning"
           - "TensorFlow"
+          - "CNN"
           - "VGG19"
 
         links:
           - icon: fab fa-github
             url: https://github.com/varundeepakgudhe/histopathologic_cancer_detection
+      - title: Road Accident Dashboard
+        content: A deep learning model (CNN's,VGG19) to identify metastatic cancer in colored image patches, using Transfer Learning, Neural Networks and Image Segmentation.
+        image: /Accident.png
+
+        badges:
+          - "Tableau"
+          - "KPI's"
+          - "Data Analysis"
+          - "Data Visualization"
+
+        links:
+          - icon: fab fa-github
+            url: https://github.com/varundeepakgudhe/Accidents_Tableau
 
   #Contact
   contact:
