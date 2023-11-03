@@ -119,8 +119,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Varun Deepak Gudhe"
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    subtitle: "Enthusiastic Data Scientist specializing in ML, AI, and Web Development."
+    content: "Passionate about Data Science and Machine Learning, I harness data for insights and implement AI solutions. Additionally, I have a knack for crafting functional web apps."
     # image: /images/hero.svg
     image: /profilepic.png
     bottomImage:
@@ -421,7 +421,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/varundeepakgudhe/histopathologic_cancer_detection
       - title: Road Accident Dashboard
-        content: A deep learning model (CNN's,VGG19) to identify metastatic cancer in colored image patches, using Transfer Learning, Neural Networks and Image Segmentation.
+        content:
         image: /Accident.png
 
         badges:
