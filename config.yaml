@@ -264,6 +264,15 @@ params:
           - Improved Simstudent’s performance, benefiting many middle school students.
         info:
           enable: false
+      - job: "Teaching Assistant"
+        company: "SRM University Ap"
+        companyUrl: "https://srmap.edu.in/"
+        date: "Jul 2019 - Jun 2020"
+        content: |
+          - Tutored and evaluated 60+ students in Python course using Minerva platform.
+          - Teaching Assistant for the course Probability and Statistics. Assisted in attending student queries and graded students assignments and final project to aid the professor.
+        info:
+          enable: false
   # Education
   education:
     enable: true
