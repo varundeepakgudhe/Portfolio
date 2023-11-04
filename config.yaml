@@ -119,8 +119,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Varun Deepak Gudhe"
-    subtitle: "Enthusiastic Data Scientist specializing in ML, AI, and Web Development."
-    content: "Passionate about Data Science and Machine Learning, I harness data for insights and implement AI solutions. Additionally, I have a knack for crafting functional web apps."
+    subtitle: "A passionate Data Scientist specializing in ML, AI, and Web Development."
+    content: ""
     # image: /images/hero.svg
     image: /profilepic.png
     bottomImage:
@@ -430,7 +430,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/varundeepakgudhe/histopathologic_cancer_detection
       - title: Road Accident Dashboard
-        content:
+        content: An interactive Tableau dashboard that delivers a visual exploration of road accident trends, providing immediate insights into casualty statistics through dynamic KPIs, trend analyses, and geographic data representations for informed decision-making.
         image: /Accident.png
 
         badges:
