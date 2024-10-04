@@ -183,7 +183,8 @@ params:
   experience:
     enable: true
     # title: "Custom Name"
-    - job: "Bioinformatics Software Developer (RA)"
+    items:
+        - job: "Bioinformatics Software Developer (RA)"
         company: "Guerrero Lab"
         companyUrl: "https://bio.sciences.ncsu.edu/people/rfguerre/"
         date: "Sep 2024 - Present"
@@ -197,7 +198,6 @@ params:
           I am currently working as a research assistant under the supervision of Dr. Rafael Guerrero. 
           - As the project lead, implementing ancestry simulation models using msprime in C++ and Python to analyze and predict genetic
             variations across populations, following Agile methods for efficient team collaboration.
-    items:
       - job: "Data Scientist (RA)"
         company: "Ashes Lab"
         companyUrl: "https://www.carterclinton.com/"
