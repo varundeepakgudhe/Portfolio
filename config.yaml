@@ -119,7 +119,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Varun Deepak Gudhe"
-    subtitle: "A passionate Data Scientist specializing in ML, AI, and Web Development."
+    subtitle: "The Wizard of Data Science"
     content: ""
     # image: /images/hero.svg
     image: /profilepic.png
@@ -216,10 +216,10 @@ params:
           - Extracted protein sequence and taxonomic data from NCBI and PDB databases, cleaned the data to rectify inconsistencies and improve data integrity, transformed the raw data using techniques like merging and joining to facilitate further analysis, loaded the optimized datasets for subsequent computational processes.
           - Utilized the ete3 toolkit for phylogenetic tree processing, aligning leaf labels with protein sequence data, tree pruning, and understanding unique sister clades' evolutionary significance. Concurrently, conducted statistical analyses to find correlations between amino acid changes and T growth, visualized with box plots, and designed a linear regression classifier for predicting thermostability based on protien sequences.
 
-      - job: "Graduate Student Assistant"
+      - job: "Data Science Mentor"
         company: "NC State Data Science Academy"
         companyUrl: "https://datascienceacademy.ncsu.edu"
-        date: "May 2023 - Aug 2023"
+        date: "May 2023 - Aug 2023 and May 2024 - Aug 2024"
         info:
           enable: false
         featuredLink:
