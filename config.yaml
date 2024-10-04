@@ -241,8 +241,8 @@ params:
           enable: true
           url: "https://datascienceacademy.ncsu.edu/2024/01/18/rural-works/"
         content: |
-          - Mentored 25+ students in Data Science projects for rural works organizations. Enabled hands-on experience for students using real data from these organizations, leading to valuable insights that helped the nonprofits improve their operations.
-          - Guided students in delivering impactful presentations, showcasing their findings and providing actionable recommendations to stakeholders.
+          - Mentored 25 + students during internships on Data Science projects for rural organizations, enabling hands-on experience with real data, utilizing tools such as Python, R, and SQL, and improving nonprofit operations by 20%.
+          - Guided students in delivering impactful presentations using data visualization tools like PowerBI and Tableau, showcasing their findings and providing actionable recommendations to stakeholders.
       - job: "Data Science Expert"
         company: "North Carolina School of Science and Mathematics(NCSSM)"
         companyUrl: "https://www.ncssm.edu"
@@ -255,6 +255,18 @@ params:
         content: |
           - Guided high school students in analyzing complex HR and medical datasets from UNC Health Blue Ridge, leveraging advanced data science and machine learning techniques. Instructed weekly classes on Data Cleaning, Preprocessing, Clustering, Regression, Model Fitting, Supervised and Unsupervised Learning, and Visualizations.
           - Mentored students in developing interactive visualizations (using tools like Tableau and Matplotlib) and predictive models, presenting their findings to UNC Health Blue Ridge, resulting in actionable insights for the hospital.
+      - job: "Data Science Expert"
+        company: "North Carolina School of Science and Mathematics(NCSSM)"
+        companyUrl: "https://www.ncssm.edu"
+        date: "Jun 2024 - Jul 2024"
+        featuredLink:
+          enable: false
+          url: "https://github.com/varundeepakgudhe/Data_Science_Academy"
+        content: |
+          - Guided high school students in analyzing complex HR and medical datasets from UNC Health Blue Ridge, leveraging advanced data science and machine learning techniques. Instructed weekly classes on Data Cleaning, Preprocessing, Clustering, Regression, Model Fitting, Supervised and Unsupervised Learning, and Visualizations.
+          - Mentored students in developing interactive visualizations (using tools like Tableau and Matplotlib) and predictive models, presenting their findings to UNC Health Blue Ridge, resulting in actionable insights for the hospital.
+        info:
+          enable: false
       - job: "Course Collobarative Leader"
         company: "NC State Data Science Academy"
         companyUrl: "https://datascienceacademy.ncsu.edu"
