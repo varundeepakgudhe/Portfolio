@@ -184,7 +184,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-        - job: "Bioinformatics Software Developer (RA)"
+      - job: "Bioinformatics Software Developer (RA)"
         company: "Guerrero Lab"
         companyUrl: "https://bio.sciences.ncsu.edu/people/rfguerre/"
         date: "Sep 2024 - Present"
@@ -386,8 +386,6 @@ params:
             url: https://github.com/varundeepakgudhe/laBP_varun
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-    items:
       - title: Sync-Ends Library
         content: A Python Library that can detect any change across Postman Collection APIs and instantly send notifications on Slack, Teams & Email.
         image: /Github.png
