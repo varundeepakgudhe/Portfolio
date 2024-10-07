@@ -117,7 +117,7 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
+    intro: "Hey, I’m"
     title: "Varun Deepak Gudhe"
     subtitle: "The Wizard of Data Science"
     content: ""
@@ -129,7 +129,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1Uyxx1vUpyO6-kY0S4P65-xk-wE-5FuTx/view?usp=sharing"
+      url: "https://drive.google.com/file/d/105r97RWTjRCc01bmlYS3--Y1V0dB_nab/view?usp=sharing"
       download: false
       newPage: false
     socialLinks:
@@ -148,7 +148,7 @@ params:
     title: "About Me"
     # image: "/images/me.png"
     content: |-
-      I'm Varun Deepak Gudhe, a graduate student at North Carolina State University, pursuing my Masters in Computer Science. I'm really passionate about data science and have developed numerous machine learning projects and like to deploy them in the cloud to bring my projects to a wider audience. Currently, I'm exploring the world of machine learning in DNA and protein sequences. I'm also diving into web development.
+      I'm Varun Deepak Gudhe, a graduate student at North Carolina State University, pursuing my Masters in Computer Science. I'm really passionate about data science and have developed numerous machine learning projects and like to deploy them in the cloud to bring my projects to a wider audience. Currently, I'm exploring the world of machine learning in bioinformatics. I'm also diving into web development.
 
     skills:
       enable: true
@@ -281,7 +281,7 @@ params:
           - Graded lab assignments and student capstone projects.
         info:
           enable: false
-      - job: "Graduate Research Assistant"
+      - job: "Research Assistant"
         company: "IEC Lab NCSU"
         companyUrl: "https://www.ieclab.org/home"
         date: "Dec 2022 - May 2023"
